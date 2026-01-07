@@ -1,0 +1,123 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/ChatGPT\ Image\ 6\ de\ jan.\ de\ 2026\,\ 17_46_17.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body::before{
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(137, 152, 109, 0.6);
+    z-index: -1;
+    pointer-events: none;
+}
+
+.header {
+    background-color: #F6F0D7;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.header-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+
+    background-color: #89986D;
+    padding: 10px;
+    border-radius: 0 10px;
+}
+
+.nav {
+    margin-left: auto; 
+}
+
+.nav-list {
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #89986D;
+    padding: 10px;
+    border-radius: 10px;
+
+    transition: background-color 0.3s ease;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+
+.nav-item:hover {
+    background-color: #000000;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.nav-item:hover .nav-link {
+    color: orange;
+}
+
+footer{
+
+    background-color: #F6F0D7;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+#DevAndrey{
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #89986D;
+    color: white;
+    width: auto;
+    height: auto;
+    padding: 10px;
+
+    border-radius: 0 10px 0 10px;
+}
+
+#DevAndrey:hover{
+    background-color: black;
+    color: orange;
+}
+
+footer > img{
+    height: 100px;
+    margin: auto;
+    margin-left: 60%;
+    filter: drop-shadow(0 3px 10px rgba(0, 0, 0, 0.5));
+}
+

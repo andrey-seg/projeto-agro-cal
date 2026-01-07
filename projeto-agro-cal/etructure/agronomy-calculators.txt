@@ -1,0 +1,19 @@
+agronomy-calculators/
+│
+├── index.html
+├── planting.html
+├── irrigation.html
+├── fertilization.html
+├── pesticides.html
+│
+├── css/
+│   ├── style.css (global styles)
+│   └── calculators.css (specific styles)
+│
+└── js/
+    ├── utils.js (shared utility functions)
+    ├── validation.js (input validation)
+    ├── planting-calc.js (planting page specific)
+    ├── irrigation-calc.js (irrigation page specific)
+    ├── fertilization-calc.js (fertilization page specific)
+    └── pesticides-calc.js (pesticides page specific)
